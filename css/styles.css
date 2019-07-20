@@ -4,16 +4,15 @@
   
 body {
   height: 100vh;
-  margin: 0;
+  width: auto;
   font-family: Helvetica;
   
-    
 }
 
 .headerWrap {
-  padding: 60px;
+  padding: 30px;
   text-align: center;
-  background: #dfd9d2;
+  background: #ebe7e4;
   color: #070005;
   border: 2px solid black;
 }
@@ -52,29 +51,44 @@ body {
 .navbar {
   font-size: 60px;
   background-color: #ffffff;
-  padding: 20px 14px;
+  padding: 40px;
   text-align: center;
   border: 1px solid #000000
 }
 
 .proImg {
   width: 30vmin;
-  height: 30vmin;
-  margin: 2vmin;
+  height: 35vmin;
   border-radius: 50%;
   border: 1px solid #000000;
 }
 
-.projImg {
-  width: 70vmin;
-  height: 60vmin;
-  margin: 2vmin;
+.imgWrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+
+}
+
+.projectImg {
+  display: flex;
+  flex-direction: row;
+  
+  width: 45vmin;
+  height: 45vmin;
   border: 1px solid #000000;
 }
 
-@media screen and (max-width: 700px) {
-  .row, .navbar, .side, .proImg {   
+@media screen and (max-width: 500px) {
+  .row, .headerWrap, .side {   
     flex-direction: row;
   }
+
+  .imgWrapper {
+    flex-direction: column;
+  }
+
+  
+  
 
 }
