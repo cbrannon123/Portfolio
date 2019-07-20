@@ -6,6 +6,7 @@ body {
   height: 100vh;
   margin: 0;
   font-family: Helvetica;
+  
     
 }
 
@@ -64,8 +65,15 @@ body {
   border: 1px solid #000000;
 }
 
+.projImg {
+  width: 70vmin;
+  height: 60vmin;
+  margin: 2vmin;
+  border: 1px solid #000000;
+}
+
 @media screen and (max-width: 700px) {
-  .row, .navbar, .side, .proImg  {   
+  .row, .navbar, .side, .proImg {   
     flex-direction: row;
   }
 
