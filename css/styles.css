@@ -9,6 +9,10 @@ body {
   
 }
 
+a {
+  text-decoration: none;
+}
+
 .headerWrap {
   padding: 30px;
   text-align: center;
