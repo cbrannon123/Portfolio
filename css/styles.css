@@ -24,6 +24,17 @@ a {
   background-size: 100%
 }
 
+.headerWrap i {
+  padding: 5px;
+}
+
+#headName {
+  font-family: 'Lalezar', cursive; 
+  text-shadow: 1px 1px 2px black, 0 0 25px rgb(238, 238, 238), 0 0 5px rgb(0, 0, 0);;
+  font-size: 5em;
+  
+}
+
 #wallPic {
   background-color: #1b0a0ac7;
   image-rendering: pixelated;
@@ -66,10 +77,9 @@ a {
 .navbar {
   font-size: 60px;
   background-color: #000000a3;
-  box-shadow: 20px 20px 50px rgb(98, 98, 100);
+  box-shadow: 20px 20px 50px rgb(53, 53, 66);
   padding: 40px;
   text-align: center;
-  
 }
 
 .proImg {
