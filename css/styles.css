@@ -16,10 +16,20 @@ a {
 .headerWrap {
   padding: 30px;
   text-align: center;
-  background: #ebe7e4;
-  color: #070005;
+  background-image: url('./images/bigstock-Old-grunge-brick-wall-backgrou-44341411.jpg');
+  color: #ffffff;
   border: 2px solid black;
+  background-repeat: none;
+  background-size: 100%
 }
+
+#wallPic {
+  background-color: #1b0a0ac7;
+  image-rendering: pixelated;
+  background-blend-mode: color;
+}
+
+
 
 .row {  
   display: flex;
@@ -54,10 +64,10 @@ a {
 
 .navbar {
   font-size: 60px;
-  background-color: #ffffff;
+  background-color: #000000a3;
   padding: 40px;
   text-align: center;
-  border: 1px solid #000000
+  border: 1px solid #67010180;
 }
 
 .proImg {
@@ -88,9 +98,10 @@ a {
     flex-direction: row;
   }
 
-  .imgWrapper {
-    flex-direction: column;
-  }
+  /* .imgWrapper {
+    flex-direction: row;
+    justify-content: space-around;
+  } */
 
   
   
