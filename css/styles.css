@@ -31,17 +31,17 @@ a {
 #headName {
   font-family: 'Lalezar', cursive; 
   text-shadow: none;
-  font-size: 5em;
+  font-size: 3em;
   
 }
 
 #wallPic {
   background-color: #1b0a0ac7;
-  image-rendering: pixelated;
   background-blend-mode: color;
+  background-repeat: no-repeat;
+  background-size: 230vmin;
+  
 }
-
-
 
 .row {  
   display: flex;
@@ -55,6 +55,7 @@ a {
   text-align: center;
 }
 
+
 .side p {
   margin: 10px;
 }
@@ -63,9 +64,18 @@ a {
   text-decoration: none;
   font-size: 20px;
   padding: 3px;
+  transition: .5s;
+}
+
+.icons a:hover{
+  box-shadow: 10px 10px 10px rgba(186, 184, 218, 0.904);
+  border-radius: 10%;
+  transition: 1s;
+  
 }
 
 .side i {
+  margin: 3px;
   font-size: 40px;
 }
 
@@ -77,15 +87,14 @@ a {
 }
 
 .navbar {
-  font-size: 60px;
-  
-  
+  font-size: 8vh;
   padding: 40px;
   text-align: center;
+  
 }
 
 .proImg {
-  width: 30vmin;
+  width: 27vmin;
   height: 35vmin;
   border-radius: 50%;
   border: 1px solid #000000;
