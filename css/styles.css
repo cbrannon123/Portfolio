@@ -66,9 +66,10 @@ a {
 .navbar {
   font-size: 60px;
   background-color: #000000a3;
+  box-shadow: 20px 20px 50px rgb(98, 98, 100);
   padding: 40px;
   text-align: center;
-  border: 1px solid #67010180;
+  
 }
 
 .proImg {
