@@ -133,6 +133,14 @@ padding: 25px;
 
 .icon > a {
   color: black;
+  transition: .5s;
+}
+
+.icon > a:hover {
+  box-shadow: 10px 10px 10px 10px rgb(113, 129, 115);
+  border-radius: 10%;
+  transition: 1.5s;
+  
 }
 
 .proIcons {
