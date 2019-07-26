@@ -189,9 +189,10 @@ border-bottom: 1px solid black;
 
 .projectContainer {
 display: flex;
-flex-flow: column nowrap;
+flex-flow: row nowrap;
+justify-content: space-around;
 text-align: center;
-align-items: center;
+margin-bottom: 10vmin;
 padding: 1em;
 width: 100%;
 }
@@ -214,3 +215,16 @@ border: solid black;
 
 
 
+@media only screen and (max-width: 900px) {
+  .projectContainer {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    align-items: center;
+    padding: 1em;
+    width: 100%;
+    }
+  
+}
